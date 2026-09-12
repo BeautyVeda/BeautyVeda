@@ -1,0 +1,2 @@
+const menu=document.querySelector(".hamburger"),nav=document.querySelector(".navlinks");menu?.addEventListener("click",()=>{nav.classList.toggle("open")});
+const form=document.getElementById("newsletterForm");form?.addEventListener("submit",e=>{e.preventDefault();document.getElementById("msg").textContent="Thanks! Connect this form to your email service before publishing.";form.reset()});

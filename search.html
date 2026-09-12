@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Search BeautyVeda articles."><title>Search | BeautyVeda</title><link rel="icon" href="logo.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head><body>
+<header class="header"><div class="wrap nav"><a class="logo" href="index.html"><img src="logo.svg"><span>BeautyVeda</span></a><nav class="navlinks"><a href="index.html">Home</a><a href="index.html#categories">Categories</a><a class="active" href="search.html">Search</a><a href="about.html">About</a></nav></div></header>
+<main><section class="search-hero"><div class="wrap"><p class="eyebrow">FIND YOUR NEXT READ</p><h1>Search BeautyVeda</h1><div class="searchbar"><input id="q" placeholder="Try “skincare”, “haircare”, “self-care”..."><button id="go">Search</button></div><p id="result"></p></div></section><section class="wrap section"><div class="posts three" id="results"></div></section></main><footer><div class="wrap foot"><a class="logo" href="index.html"><img src="logo.svg"><span>BeautyVeda</span></a><p class="copy">© 2026 BeautyVeda</p></div></footer>
+<script>
+const posts=[
+["Skincare","How to build a simple skincare routine you can actually follow","post.html","cover1"],
+["Haircare","Everyday habits for softer-looking, healthier hair","post.html","cover2"],
+["Lifestyle","7 tiny self-care habits for a calmer day","post.html","cover3"],
+["Makeup","An easy everyday makeup routine for beginners","post.html","cover1"],
+["Style","Simple style habits that make getting dressed easier","post.html","cover2"]
+];
+const box=document.getElementById("results"),q=document.getElementById("q"),out=document.getElementById("result");
+function render(term=""){const t=term.toLowerCase().trim();const list=posts.filter(p=>(p[0]+" "+p[1]).toLowerCase().includes(t));box.innerHTML=list.map(p=>`<article class="post"><a href="${p[2]}"><div class="cover ${p[3]}"><span>${p[0]}</span></div><div class="postcopy"><small>${p[0]}</small><h3>${p[1]}</h3><p>Explore this BeautyVeda guide.</p><b>Read →</b></div></a></article>`).join("");out.textContent=list.length+" article"+(list.length===1?"":"s")+" found";}
+document.getElementById("go").onclick=()=>render(q.value);q.addEventListener("keydown",e=>{if(e.key==="Enter")render(q.value)});render();
+</script></body></html>
