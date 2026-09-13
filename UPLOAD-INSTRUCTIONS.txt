@@ -1,17 +1,33 @@
-UPLOAD TO YOUR BEAUTYVEDA GITHUB REPOSITORY
+BEAUTYVEDA — CORRECTED HOMEPAGE + SEARCH
 
-Upload these 5 files to the ROOT of your repository:
-1. hair-fall-tips.html
-2. hair-hero.svg
-3. scalp-care.svg
-4. nutrition-hair.svg
-5. gentle-hair.svg
+Upload/replace ONLY these 2 files in your GitHub repository:
+1. index.html
+2. search.html
 
-IMPORTANT: Upload ALL 5 files. Do not upload only the HTML file, because the article uses the 4 SVG images.
+Do NOT delete your existing style.css, logo.svg, or other files.
 
-After uploading, the article URL will be:
-https://beautyveda.github.io/BeautyVeda/hair-fall-tips.html
+The corrected homepage:
+- Shows the Hair Fall article under Fresh Reads.
+- Links directly to hair-fall-tips.html.
+- Adds Search to the navigation.
 
-If your GitHub username/repository URL is different, use your actual GitHub Pages URL.
+The corrected search page:
+- Finds "hair fall".
+- Finds "haircare".
+- Shows the new Hair Fall article.
+- Opens hair-fall-tips.html when the user clicks Read article.
+- Has a better no-results message.
 
-Google indexing/ranking is not guaranteed immediately. For faster discovery, submit the article URL in Google Search Console after it is live.
+IMPORTANT:
+Your GitHub repository must contain:
+hair-fall-tips.html
+hair-hero.svg
+scalp-care.svg
+nutrition-hair.svg
+gentle-hair.svg
+index.html
+search.html
+style.css
+logo.svg
+
+After upload, wait a minute and refresh the website with Ctrl + F5.
