@@ -1,0 +1,17 @@
+UPLOAD TO YOUR BEAUTYVEDA GITHUB REPOSITORY
+
+Upload these 5 files to the ROOT of your repository:
+1. hair-fall-tips.html
+2. hair-hero.svg
+3. scalp-care.svg
+4. nutrition-hair.svg
+5. gentle-hair.svg
+
+IMPORTANT: Upload ALL 5 files. Do not upload only the HTML file, because the article uses the 4 SVG images.
+
+After uploading, the article URL will be:
+https://beautyveda.github.io/BeautyVeda/hair-fall-tips.html
+
+If your GitHub username/repository URL is different, use your actual GitHub Pages URL.
+
+Google indexing/ranking is not guaranteed immediately. For faster discovery, submit the article URL in Google Search Console after it is live.
